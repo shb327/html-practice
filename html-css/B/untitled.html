@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Blog</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	
+	<body>
+
+		<div id="header" class="section">
+			<img alt="" class="img-circle" src="pic.png">
+			<p>Bohdan Shkamarida</p>
+		</div>
+		<div class="section">
+			<h1><span>About Me</span></h1>
+			<p>
+				Hello! I'm <strong>Bohdan</strong>. I like potatoes. People may think that I like sports ,coding or something else, but actually everything I like are <i>potatoes</i> and nothing else. I also like pasta and pizza. Hovewer, it's still  nothing compared to beautiful and awesome <strong>potatoes</strong>, especially the mashed ones. Join me in my pottato love. You'll have fun, get help, and learn along the way!
+			</p>
+			<p class="quote">"Potatoes never gonna give you up."</p>
+		</div>
+
+	   <div class="section">
+			<h1><span>Contact Me</span></h1>
+			
+			<svg class="face" height="100" width="100">
+				<circle cx="50" cy="50" r="50" fill="#FDD835"/>
+				<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+				<circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+				<circle cx="30" cy="30" r="5" fill="#000000"/>
+				<circle cx="70" cy="30" r="5" fill="#000000"/>
+				<path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+			</svg>
+				 
+			<form>
+				<ol>
+					<li>
+						<p style="text-align: left">Username input:</p>
+						<input name="username" placeholder="Username" type="text" required /><br/>
+					</li>
+					<li>
+						<p style="text-align: left">Password input:</p>
+						<input name="password" placeholder="Password" type="password" required /><br/>
+					</li>
+					<li>
+						<p style="text-align: left">Email input:</p>
+						<input name="email" placeholder="Email" type="email" required /><br/>
+					</li>
+					<li>
+						<p style="text-align: left">Genger choice:</p>
+						<table align="center" style="width: 70%;">
+							<tr>
+								<th bgcolor="#00d5ff">
+									<input type="checkbox" id="male" name="male" checked>
+								</th>
+								<th bgcolor="#00d5ff"> 
+									<label for="male"><p style="text-align: center">Male</p></label>
+								</th>
+							</tr>
+							<tr>
+								<th bgcolor="#ff82d1">
+									<input type="checkbox" id="female" name="female">
+								</th>
+								<th bgcolor="#ff82d1"> 
+									<label for="female"><p style="text-align: center;">Female</p></label>
+								</th>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<p style="text-align: left">Programming languages:</p>
+						<table align="center" style="width: 70%;">
+							<tr>
+								<th>
+									<input name="javascript" type="radio" value="javascript" checked>
+								</th>
+								<th> 
+									<label for="javascript"><p style="text-align: center">JavaScripts</p></label>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<input name="python" type="radio" value="python">
+								</th>
+								<th> 
+									<label for="python"><p style="text-align: center;">Python</p></label>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<input name="java" type="radio" value="java">
+								</th>
+								<th> 
+									<label for="java"><p style="text-align: center;">Java</p></label>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<input name="ruby" type="radio" value="ruby">
+								</th>
+								<th> 
+									<label for="ruby"><p style="text-align: center;">Ruby</p></label>
+								</th>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<p style="text-align: left">Favorite Food:</p>
+						<label for="food">Choose your favorite food:</label>
+  						<select id="food" name="food">
+    						<option value="potatoes">Potatoes</option>
+    						<option value="pasta">Pasta</option>
+    						<option value="pizza">Pizza</option>
+    						<option value="lasagna">Lasagna</option>
+  						</select>
+					</li>
+					<li>
+						<p style="text-align: left">Message Area:</p>
+						<textarea name="message" placeholder="Message" required ></textarea>
+					</li>
+					<input type="submit" value="SEND" class="submit" />
+					<p><br /></p>
+					<input type="reset" value="RESET" class="submit" />
+				</ol>
+			</form>
+		</div>
+		<div class="section" id="contacts">
+			<h1><span>Follow Me</span></h1>
+				<div>
+					<a href="https://www.facebook.com/bohdan.shkamarida">
+						<img alt="Facebook" src="facebook.png"/>
+					</a>
+					<a href="https://twitter.com/bohdanopen">
+						<img alt="Twitter" src="twitter.png" />
+					</a>
+					<a href="https://www.youtube.com/channel/UC-rv45OnKikxB0s4pt-R37A?view_as=subscriber">
+						<img alt="YouTube" src="youtube.png"/>
+					</a>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			&copy; 2020 My Blog. All rights reserved.
+		</div>
+	</body>
+</html>
